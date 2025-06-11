@@ -15,8 +15,8 @@
 #include "leitura_sensor.h" // Leitura do sensor de temperatura
 
 // --- DEFINIÇÕES DA REDE WIFI ---
-#define SSID_WIFI "WIFI TC" //Nome da rede wifi
-#define SENHA_WIFI "95231925" //Senha da rede wifi
+#define SSID_WIFI "NomeRede" //Nome da rede wifi
+#define SENHA_WIFI "SenhaRede" //Senha da rede wifi
 
 // Tópicos MQTT
 #define TOPICO_LED_MQTT "pico_led_controle" // Topico onde sera publicada a mensagem
