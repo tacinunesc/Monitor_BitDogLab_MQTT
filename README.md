@@ -53,4 +53,4 @@ tudo também pode ser verificado no serial monitor do VSCode.
 - MQTT 
 
 ## 📄 Licença
-Este projeto está sob a mesma licença do BitDogLab — CERN OHL S‑2.0. Consulte LICENSE
+MIT License
