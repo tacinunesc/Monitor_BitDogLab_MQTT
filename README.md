@@ -10,8 +10,8 @@ Este projeto conecta sensores do BitDogLab a um broker MQTT, transmitindo dados 
 
 ## 🚀 Pré-requisitos
 - Hardware
-- BitDogLab (RP Pico H/W)
-- Sensores: AHT10 (temp/umidade), BH1750 (luminosidade)
+- BitDogLab - Raspberry Pi Pico W
+- Sensores: Temperatura e LED
 
 ## Broker MQTT
 - HiveMQ Edge
