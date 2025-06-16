@@ -9,7 +9,7 @@ Sistema de monitoramento via MQTT para o hardware educacional BitDogLab, permiti
 Este projeto conecta sensores do BitDogLab a um broker MQTT, transmitindo dados de temperatura, ativando e desativando o LED e recebendo mensagens. 
 
 ## 🚀 Pré-requisitos
-- Hardware
+Hardware
 - BitDogLab - Raspberry Pi Pico W
 - Sensores: Temperatura e LED
 
