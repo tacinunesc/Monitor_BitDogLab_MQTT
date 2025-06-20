@@ -44,7 +44,7 @@ add_executable(Tarefa_Unidade_II_MQTT
     leitura_sensor.c
     mqtt_configuracao.c
     inc/ssd1306_i2c.c 
-   
+    
 )
 
 
