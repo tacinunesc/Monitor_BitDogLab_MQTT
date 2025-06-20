@@ -1,15 +1,10 @@
-#ifndef LEITURA_SENSOR_H  
-#define LEITURA_SENSOR_H  
+#ifndef LEITURA_SENSOR_H
+#define LEITURA_SENSOR_H
 
-#include "pico/stdlib.h"  // Biblioteca padrão do Raspberry Pi Pico
-#include "hardware/adc.h" // Biblioteca para controle do ADC (Conversor Analógico-Digital)
+#include "pico/stdlib.h"
+#include "hardware/adc.h"
 
-// --- DECLARAÇÃO DAS FUNÇÕES ---
+void inicializar_pinos();
+float ler_temperatura();
 
-// Inicializa os pinos necessários para leitura do sensor (configuração do ADC)
-void inicializar_pinos();  
-
-// Função para obter a temperatura medida pelo sensor
-float ler_temperatura();  
-
-#endif  // Finaliza 
+#endif
