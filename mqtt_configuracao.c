@@ -86,7 +86,7 @@ void inicializar_mqtt()
 
     // Usa o IP LOCAL para conexão (mais simples para debug inicial)
     
-    const ip_addr_t ip_broker = IPADDR4_INIT_BYTES(192, 168, 0, 108); // <<< Use o IP do seu broker local
+    const ip_addr_t ip_broker = IPADDR4_INIT_BYTES(192, 168, x, XXX); // <<< Use o IP do seu broker local
                                                                     
 
     printf("MQTT_INIT: Tentando conectar ao broker IP: %s\n", ipaddr_ntoa(&ip_broker));
